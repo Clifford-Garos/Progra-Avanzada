@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|c:\\users\\drask\\onedrive - universidad fid\u00E9litas\\2025 fidelitas\\sc-701 programacion avanzada en web\\transporticos\\sm_proyectoweb\\views\\login\\principal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|solutionrelative:sm_proyectoweb\\views\\login\\principal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|c:\\users\\drask\\onedrive - universidad fid\u00E9litas\\2025 fidelitas\\sc-701 programacion avanzada en web\\transporticos\\sm_proyectoweb\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|solutionrelative:sm_proyectoweb\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|c:\\users\\drask\\onedrive - universidad fid\u00E9litas\\2025 fidelitas\\sc-701 programacion avanzada en web\\transporticos\\sm_proyectoweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|solutionrelative:sm_proyectoweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|c:\\users\\drask\\onedrive - universidad fid\u00E9litas\\2025 fidelitas\\sc-701 programacion avanzada en web\\transporticos\\sm_proyectoweb\\views\\login\\iniciarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|solutionrelative:sm_proyectoweb\\views\\login\\iniciarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|c:\\users\\drask\\onedrive - universidad fid\u00E9litas\\2025 fidelitas\\sc-701 programacion avanzada en web\\transporticos\\sm_proyectoweb\\views\\shared\\_layoutexterno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|solutionrelative:sm_proyectoweb\\views\\shared\\_layoutexterno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|c:\\users\\drask\\onedrive - universidad fid\u00E9litas\\2025 fidelitas\\sc-701 programacion avanzada en web\\transporticos\\sm_proyectoweb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|solutionrelative:sm_proyectoweb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|c:\\users\\drask\\onedrive - universidad fid\u00E9litas\\2025 fidelitas\\sc-701 programacion avanzada en web\\transporticos\\sm_proyectoweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0C1489-AB1E-4D5E-9177-C6C484CD2D1A}|SM_ProyectoWeb\\SM_ProyectoWeb.csproj|solutionrelative:sm_proyectoweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "SM_ProyectoWeb\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "SM_ProyectoWeb\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAALoJAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-01T03:00:40.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "SM_ProyectoWeb\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "SM_ProyectoWeb\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T02:20:45.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LayoutExterno.cshtml",
+              "DocumentMoniker": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Views\\Shared\\_LayoutExterno.cshtml",
+              "RelativeDocumentMoniker": "SM_ProyectoWeb\\Views\\Shared\\_LayoutExterno.cshtml",
+              "ToolTip": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Views\\Shared\\_LayoutExterno.cshtml",
+              "RelativeToolTip": "SM_ProyectoWeb\\Views\\Shared\\_LayoutExterno.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T16:28:14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SM_ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SM_ProyectoWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAEBVwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T16:26:03.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Principal.cshtml",
+              "DocumentMoniker": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Views\\Login\\Principal.cshtml",
+              "RelativeDocumentMoniker": "SM_ProyectoWeb\\Views\\Login\\Principal.cshtml",
+              "ToolTip": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Views\\Login\\Principal.cshtml",
+              "RelativeToolTip": "SM_ProyectoWeb\\Views\\Login\\Principal.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T16:23:43.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IniciarSesion.cshtml",
+              "DocumentMoniker": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Views\\Login\\IniciarSesion.cshtml",
+              "RelativeDocumentMoniker": "SM_ProyectoWeb\\Views\\Login\\IniciarSesion.cshtml",
+              "ToolTip": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Views\\Login\\IniciarSesion.cshtml",
+              "RelativeToolTip": "SM_ProyectoWeb\\Views\\Login\\IniciarSesion.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T16:07:18.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SM_ProyectoWeb\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\drask\\OneDrive - Universidad Fid\u00E9litas\\2025 FIDELITAS\\SC-701 PROGRAMACION AVANZADA EN WEB\\Transporticos\\SM_ProyectoWeb\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SM_ProyectoWeb\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T16:06:56.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

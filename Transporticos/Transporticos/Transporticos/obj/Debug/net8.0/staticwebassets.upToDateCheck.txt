@@ -1,0 +1,9 @@
+wwwroot\css\materialdesignicons.min.css
+wwwroot\css\simplebar.css
+wwwroot\css\style.css
+wwwroot\favicon.ico
+wwwroot\img\logo.png
+wwwroot\js\bootstrap.bundle.min.js
+wwwroot\js\jquery.min.js
+wwwroot\js\mono.js
+wwwroot\js\simplebar.min.js
