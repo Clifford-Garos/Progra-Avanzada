@@ -1,0 +1,172 @@
+﻿@{
+    // Título de la página (puedes sobrescribirlo en cada vista usando ViewData["Title"])
+    var pageTitle = ViewData["Title"] ?? "Proyecto SM";
+}
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Ajusta la escala del viewport para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>@pageTitle</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Roboto" rel="stylesheet" />
+
+    <!-- Estilos principales -->
+    <link href="~/css/materialdesignicons.min.css" rel="stylesheet" />
+    <link href="~/css/simplebar.css" rel="stylesheet" />
+    @* <link href="~/css/style.css" rel="stylesheet" /> *@
+    <link rel="stylesheet" href="@Url.Content("~/css/style.css")">
+
+    <!-- Sección opcional de estilos específicos de cada vista -->
+    @RenderSection("Styles", required: false)
+</head>
+
+<body class="navbar-fixed sidebar-fixed" id="body">
+    <div class="wrapper">
+        <!-- SIDEBAR IZQUIERDO -->
+        <aside class="left-sidebar sidebar-dark" id="left-sidebar">
+            <div id="sidebar" class="sidebar sidebar-with-footer">
+
+                <!-- LOGO / BRAND -->
+                <div class="app-brand">
+                    <a href="@Url.Action("Principal", "Login")">
+                        <!-- Ajusta la ruta del Action si tu controlador se llama distinto -->
+                        <img src="~/img/logoBus.png" alt="Logo">
+                        <span class="brand-name">Menú</span>
+                    </a>
+                </div>
+
+                <!-- MENÚ LATERAL -->
+                <div class="sidebar-left" data-simplebar style="height: 100%;">
+                    <ul class="nav sidebar-inner" id="sidebar-menu">
+                        <li class="section-title">Apps</li>
+
+                        <li>
+                            <a class="sidenav-item-link" href="chat.html">
+                                <i class="mdi mdi-wechat"></i>
+                                <span class="nav-text">Chat</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="sidenav-item-link" href="contacts.html">
+                                <i class="mdi mdi-phone"></i>
+                                <span class="nav-text">Contacts</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- FOOTER DEL SIDEBAR -->
+                <div class="sidebar-footer">
+                    <div class="sidebar-footer-content">
+                        <ul class="d-flex">
+                            <li>
+                                <a href="user-account-settings.html" data-toggle="tooltip" title="Profile settings">
+                                    <i class="mdi mdi-settings"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="tooltip" title="No chat messages">
+                                    <i class="mdi mdi-chat-processing"></i>
+                                </a>
+                            </li>
+                            <!-- Agrega más ítems si lo deseas -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- FIN SIDEBAR IZQUIERDO -->
+        <!-- CONTENIDO PRINCIPAL -->
+        <div class="page-wrapper">
+            <!-- ENCABEZADO / NAVBAR -->
+            <header class="main-header" id="header">
+                <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+
+                    <!-- Botón para "abrir/cerrar" sidebar -->
+                    <button id="sidebar-toggler" class="sidebar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                    </button>
+
+                    <!-- Título de la página (por defecto, si deseas sobrescribir, usa @ViewData["Title"] en tu vista) -->
+                    <span class="page-title">@pageTitle</span>
+
+                    <!-- NAVBAR DERECHA -->
+                    <div class="navbar-right">
+                        <ul class="nav navbar-nav">
+                            <!-- Dropdown de usuario -->
+                            <li class="dropdown user-menu">
+                                <button class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                    <img src="~/img/user-xs-01.jpg" class="user-image rounded-circle" alt="User Image" />
+                                    <span class="d-none d-lg-inline-block">John Doe</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a class="dropdown-link-item" href="user-profile.html">
+                                            <i class="mdi mdi-account-outline"></i>
+                                            <span class="nav-text">Mi Perfil</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link-item" href="user-activities.html">
+                                            <i class="mdi mdi-diamond-stone"></i>
+                                            <span class="nav-text">Actividades</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link-item" href="user-account-settings.html">
+                                            <i class="mdi mdi-settings"></i>
+                                            <span class="nav-text">Configuración</span>
+                                        </a>
+                                    </li>
+                                    <!-- Cierre de sesión, etc. -->
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!-- FIN ENCABEZADO / NAVBAR -->
+            <!-- CONTENIDO DE LA PÁGINA -->
+            <div class="content-wrapper">
+                <div class="content">
+                    <!-- Aquí se inyecta el contenido de cada vista individual -->
+                    @RenderBody()
+                </div>
+            </div>
+            <!-- FIN CONTENIDO DE LA PÁGINA -->
+            <!-- PIE DE PÁGINA -->
+            <footer class="footer mt-auto">
+                <div class="copyright bg-white">
+                    <p>
+                        &copy; @DateTime.Now.Year Copyright
+                        <strong>Mono Dashboard Bootstrap Template</strong>
+                        by
+                        <a class="text-primary" href="http://www.iamabdus.com/" target="_blank">Abdus</a>.
+                    </p>
+                </div>
+            </footer>
+            <!-- FIN PIE DE PÁGINA -->
+        </div>
+        <!-- FIN CONTENIDO PRINCIPAL -->
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/simplebar.min.js"></script>
+    <script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
+    <script src="~/js/mono.js"></script>
+
+    <!-- Sección opcional para scripts propios de la vista -->
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
